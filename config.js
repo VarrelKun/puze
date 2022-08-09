@@ -57,7 +57,7 @@ global.povo = '_'
 global.pgopay = '_'
 global.ppulsa = '085954184111'
 global.ppulsa2 = '085954184111'
-global.psaweria = '_'
+global.psaweria = 'https://discord.io/FuzePage'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6287817334459'
