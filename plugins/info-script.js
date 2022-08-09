@@ -4,10 +4,10 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `*https://chat.whatsapp.com/CF4jm8T9FVx5MnD037B1nNz*`
-let wibu = `https://api.zacros.my.id/randomimg/waifu` 
+let str = `*https://FuzePage.my.id*`
+let wibu = `https://telegra.ph/file/3626c73cbd174fc3c8b20.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.sendButtonDoc(m.chat, str, wm,'Dimengerti','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/cekilgans",
     mediaType: "VIDEO",
     description: "https://www.instagram.com/reel/Ce_bngYBkEA/?igshid=YmMyMTA2M2Y=", 
