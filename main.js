@@ -128,6 +128,8 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
+  console.log(JSON.stringify(update, null, 4))
+  if (update.receivedPendingNotifications) conn.sendMessage(`6285954184111@s.whatsapp.net`, {text: 'Successfully connected by FUZEBOT' }) //made by Gama Naufal 
 }
 
 
