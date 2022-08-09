@@ -11,7 +11,7 @@ conn.sendButtonDoc(m.chat, str, wm,'Dimengerti','Bilek', m, { contextInfo: { ext
     mediaUrl: "https://Instagram.com/cekilgans",
     mediaType: "VIDEO",
     description: "https://www.instagram.com/reel/Ce_bngYBkEA/?igshid=YmMyMTA2M2Y=", 
-    title: 'Yui-Chan MultiDevice',
+    title: 'FUZEBOT MultiDevice',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
